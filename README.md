@@ -1,9 +1,10 @@
+"""
  _   _ ___ _____
 | \ | |_ _|_   _|
 |  \| || |  | |
 | |\  || |  | |
 |_| \_|___| |_|
-
+"""
 a stupid text manipulator
 
 nit - the tiny text manipulator
