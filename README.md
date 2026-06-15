@@ -1,3 +1,11 @@
+ _   _ ___ _____
+| \ | |_ _|_   _|
+|  \| || |  | |
+| |\  || |  | |
+|_| \_|___| |_|
+
+a stupid text manipulator
+
 nit - the tiny text manipulator
 
 "nit" can mean anything, depending on how broken your workflow is.
