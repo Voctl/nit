@@ -1,18 +1,15 @@
-```text
-███╗   ██╗██╗████████╗
-████╗  ██║██║╚══██╔══╝
-██╔██╗ ██║██║   ██║
-██║╚██╗██║██║   ██║
-██║ ╚████║██║   ██║
-╚═╝  ╚═══╝╚═╝   ╚═╝
-```
+███╗ ██╗██╗████████╗
+████╗ ██║██║╚══██╔══╝
+██╔██╗ ██║██║ ██║
+██║╚██╗██║██║ ██║
+██║ ╚████║██║ ██║
+╚═╝ ╚═══╝╚═╝ ╚═╝
 
-*a stupid text manipulator*
-
+*a stupid git replacement*
 ---
-
 **nit**
-*nit* - the tiny text manipulator
+*nit* - the tiny stupid git alternative
+
 "nit" can mean anything, depending on how broken your workflow is.
 
 * a short, pronounceable name.
@@ -22,14 +19,16 @@
 * "not intended for teams" when somebody asks for cloud integration.
 
 **description**
-This is a stupid text processing utility.
+This is a stupid version control utility.
+
 It does not try to understand your project.
 It does not index your life.
 It does not connect to a server in another continent.
-It reads text.
-It transforms text.
-It exits.
-The entire design assumes that text is already a good abstraction.
+It tracks changes.
+It commits them.
+It pushes and pulls when you tell it to.
+
+The entire design assumes that Git is already too complicated.
 Everything else is accidental complexity.
 
 **features**
@@ -41,20 +40,20 @@ Everything else is accidental complexity.
 **non-features**
 * telemetry
 * accounts
-* synchronization
+* synchronization (unless you want it)
 * machine learning
 * productivity dashboards
 * blockchain
-* collaboration
+* pull requests with 47 emoji reactions
+* GitHub Copilot
 
 If you need those things, there are already thousands of applications willing to consume your RAM for them.
 
 **philosophy**
 Programs should do one thing well.
-Text remains one of the most stable interfaces ever invented.
-Files are still useful.
-Pipes still work.
 
-Modern software keeps reinventing these ideas with more dependencies and worse startup times.
+Git became too big. Too many commands. Too many concepts.
 
-**nit simply manipulates text and gets out of the way.**
+**nit simply does version control and gets out of the way.**
+
+Just like the old days — but smaller and less annoying.
