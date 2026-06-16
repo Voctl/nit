@@ -1,14 +1,16 @@
+"""
 ███╗ ██╗██╗████████╗
 ████╗ ██║██║╚══██╔══╝
 ██╔██╗ ██║██║ ██║
 ██║╚██╗██║██║ ██║
 ██║ ╚████║██║ ██║
 ╚═╝ ╚═══╝╚═╝ ╚═╝
+"""
 
 *a stupid git replacement*
 ---
 **nit**
-*nit* - the tiny stupid git alternative
+*nit* - the tiny git alternative
 
 "nit" can mean anything, depending on how broken your workflow is.
 
