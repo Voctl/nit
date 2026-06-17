@@ -1,24 +1,25 @@
 ```text
-███╗ ██╗██╗████████╗
-████╗ ██║██║╚══██╔══╝
-██╔██╗ ██║██║ ██║
-██║╚██╗██║██║ ██║
-██║ ╚████║██║ ██║
-╚═╝ ╚═══╝╚═╝ ╚═╝
+███╗   ███╗██╗███╗   ██╗██╗███╗   ██╗ ██████╗ ██╗████████╗
+████╗ ████║██║████╗  ██║██║████╗  ██║██╔════╝ ██║╚══██╔══╝
+██╔████╔██║██║██╔██╗ ██║██║██╔██╗ ██║██║  ███╗██║   ██║   
+██║╚██╔╝██║██║██║╚██╗██║██║██║╚██╗██║██║   ██║██║   ██║   
+██║ ╚═╝ ██║██║██║ ╚████║██║██║ ╚████║╚██████╔╝██║   ██║   
+╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝   ╚═╝   
+
 ```
 
-*a stupid git replacement*
----
-**nit**
-*nit* - the tiny git alternative
+## *a stupid git replacement*
 
-"nit" can mean anything, depending on how broken your workflow is.
+**miningit**
+*miningit* - the tiny git alternative
+
+"miningit" can mean anything, depending on how broken your workflow is.
 
 * a short, pronounceable name.
 * an insignificant detail people argue about for hours.
 * a tiny thing that somehow ends up doing all the work.
-* "neat incremental tool" if you're feeling optimistic.
-* "not intended for teams" when somebody asks for cloud integration.
+* "minimal incremental tool" if you're feeling optimistic.
+* "not intended for internet teams" when somebody asks for cloud integration.
 
 **description**
 This is a stupid version control utility.
@@ -34,12 +35,14 @@ The entire design assumes that Git is already too complicated.
 Everything else is accidental complexity.
 
 **features**
+
 * small
 * fast
 * scriptable
 * understandable without a management meeting
 
 **non-features**
+
 * telemetry
 * accounts
 * synchronization (unless you want it)
@@ -56,6 +59,8 @@ Programs should do one thing well.
 
 Git became too big. Too many commands. Too many concepts.
 
-**nit simply does version control and gets out of the way.**
+**miningit simply does version control and gets out of the way.**
 
 Just like the old days — but smaller and less annoying.
+
+```
