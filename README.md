@@ -62,5 +62,3 @@ Git became too big. Too many commands. Too many concepts.
 **miningit simply does version control and gets out of the way.**
 
 Just like the old days — but smaller and less annoying.
-
-```
