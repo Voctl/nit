@@ -18,6 +18,7 @@ src/%.o: src/%.c
 
 clean:
 	rm -f src/*.o $(TARGET)
+	rm -rf .miningit/
 
 run: $(TARGET)
 	./$(TARGET)

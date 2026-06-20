@@ -61,4 +61,10 @@ extern unsigned int active_nr, active_alloc;
 #define centry_size(len) ((offsetof(struct centry,name) + (len) + 8) & ~7)
 #define ce_size(ce) cache_entry_size((ce)->namelen)
 #define alloc_nr(x) (((x)+16)*3/2)
+// some math shis to performance (i think its Linus's codes to performance)
 
+
+//functions
+static int ccache_name(const char *name1, int len1, const char *name2, int len2);
+static int rmffromc(char *path);
+static int cache_namep(const char *name, int namelen);

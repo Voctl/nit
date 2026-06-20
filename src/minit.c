@@ -2,12 +2,12 @@
 
 /*SOOO 
  its just initialize the whole system yk yk yk miningit 
- and making the .miningit/objects and it will make some stuff in future fr
+ and making the .miningit/objects and .miningit/head and .miningit/index files fr
  */
 
 int main(int argc, char **argv){
   char *sha1fd = getenv(DB_ENVIRONMENT), *path;
-  int len,i, fd;
+  int len, i;
 
   if (mkdir(".miningit", 0700) < 0 && errno != EEXIST) {
      perror(".miningit");
@@ -34,7 +34,12 @@ int main(int argc, char **argv){
 
 
   path = malloc(len + 40);
+  if (!path){
+    perror("malloc");
+    exit(1);
+  }
   memcpy(path, sha1fd, len);
+  path[len]  = '\0';
   for (i = 0; i < 256; i++){
         sprintf(path + len, "/%02x", i);
         if(mkdir(path, 0700) < 0){
@@ -44,6 +49,13 @@ int main(int argc, char **argv){
             }
         }
   }
+  FILE *f;
+  f = fopen(".miningit/HEAD","w"); // .miningit/head file
+  if (f)
+      fclose(f);
+  f = fopen(".miningit/index","w"); // .miningit/index file
+  if (f)
+      fclose(f);
   free(path);
   return 0;
 }
