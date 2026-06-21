@@ -49,3 +49,29 @@ static int rmffromc(char *path){
             memmove(activec + pos, activec + pos + 1, (active_nr - pos -1) * sizeof(struct centry *));
     }
 }
+
+static int add_centry(struct centry *ce)
+{
+	int pos;
+
+	pos = cache_namep(ce->name, ce->namelen);
+
+	/* existing match? Just replace it */
+	if (pos < 0) {
+		activec[-pos-1] = ce;
+		return 0;
+	}
+
+	/* Make sure the array is big enough .. */
+	if (active_nr == active_alloc) {
+		active_alloc = alloc_nr(active_alloc);
+		activec = realloc(activec, active_alloc * sizeof(struct centry *));
+	}
+
+	/* Add it in.. */
+	active_nr++;
+	if (active_nr > pos)
+		memmove(activec + pos + 1, activec + pos, (active_nr - pos - 1) * sizeof(ce));
+	activec[pos] = ce;
+	return 0;
+}

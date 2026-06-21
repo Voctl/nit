@@ -8,7 +8,7 @@
 #include <stdarg.h>
 #include <errno.h>
 #include <sys/mman.h>
-#include <openssl/sha.h> /*its for SHA1 algorithm which is doing that shi for denis's project In cryptography,
+#include <openssl/sha.h> /*its for SHA1 algorithm which is doing that shi for denis's project - In cryptography,
 SHA-1 (Secure Hash Algorithm 1) is a hash function which takes an input and produces a 160-bit (20-byte)
 hash value known as a message digest – typically rendered as 40 hexadecimal digits.*/
 #include <zlib.h>
