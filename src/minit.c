@@ -38,6 +38,7 @@ int main(int argc, char **argv){
     perror("malloc");
     exit(1);
   }
+
   memcpy(path, sha1fd, len);
   path[len]  = '\0';
   for (i = 0; i < 256; i++){
